@@ -20,7 +20,7 @@ public class ContaCorrente {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
-	public void exibirSaldo{
+	public void exibirSaldo; {
 		
 		System.out.println("Olá" + titular + "o seu saldo e R$" saldo);
 	}

@@ -23,7 +23,7 @@ public class ExerClass {
 		pessoa.setImovel(imovel);
 		
 		
-		Veiculo veiculo = new Veiculo();
+		Veiculo veiculo = new Veiculo(null, null, 0, false);
 		veiculo.setModelo(entrada.next());
 		veiculo.setMotor(entrada.next());
 		veiculo.setQtdPortas(entrada.nextInt());

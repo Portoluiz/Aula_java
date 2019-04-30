@@ -20,5 +20,7 @@ public class Humano extends Persoagem{
 	public void setClasse(String classe) {
 		this.classe = classe;
 	}
-	
+	String definirClasse () {
+		return = classe;
+	}
 }

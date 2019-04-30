@@ -55,5 +55,7 @@ public class Persoagem {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
+	protected double subirLevel() {
+		return = subirLevel;
+	}
 }

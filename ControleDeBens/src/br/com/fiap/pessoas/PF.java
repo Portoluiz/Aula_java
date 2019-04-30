@@ -1,10 +1,13 @@
 package br.com.fiap.pessoas;
 
+import br.com.fiap.bens.Imovel;
+import br.com.fiap.bens.Veiculo;
+
 public class PF {
 	private String nome;
 	private String cpf;
 	private String veiculo;
-	private String imovel;
+	private Veiculo imovel;
 	public String getNome() {
 		return nome;
 	}
@@ -23,11 +26,11 @@ public class PF {
 	public void setVeiculo(String veiculo) {
 		this.veiculo = veiculo;
 	}
-	public String getImovel() {
+	public Imovel getImovel() {
 		return imovel;
 	}
-	public void setImovel(String imovel) {
-		this.imovel = imovel;
+	public void setImovel(Veiculo veiculo2) {
+		this.imovel = veiculo2;
 	}
 	
 	
